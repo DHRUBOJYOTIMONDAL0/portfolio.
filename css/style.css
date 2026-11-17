@@ -1280,6 +1280,31 @@ section {
 	font-size: 0.8rem;
 }
 
+.project-contribution {
+	margin-top: 1.5rem;
+	padding-top: 1rem;
+	border-top: 1px solid var(--border-glass);
+}
+
+.project-contribution h4 {
+	margin: 0 0 0.75rem;
+	color: var(--text-primary);
+	font-size: 1.05rem;
+}
+
+.project-contribution .badge {
+	display: inline-block;
+	margin-bottom: 0.5rem;
+	color: var(--accent-color);
+}
+
+.project-contribution ul {
+	margin: 0;
+	padding-left: 1.25rem;
+	color: var(--text-secondary);
+	line-height: 1.7;
+}
+
 /* Development Tag */
 .dev-tag {
 	display: inline-block;
